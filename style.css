@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+  }
+  
+  .page {
+    width: 100vw;
+    height: 80vh; /* Mengurangi tinggi halaman untuk memberi jarak */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh; /* Memberikan jarak dari atas */
+  }
+  
+  .page img {
+    max-width: 90%; /* Mengurangi ukuran gambar */
+    max-height: 90%; /* Mengurangi ukuran gambar */
+    display: block;
+    margin: auto;
+  }
+  
+  .spacer {
+    height: 1%; /* Memberikan jarak antara halaman */
+    background-color: white; /* Warna latar belakang yang sama */
+  }
